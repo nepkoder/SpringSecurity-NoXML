@@ -26,6 +26,13 @@
 					</div>
 
 				</c:if>
+				<!-- Logout message configuration, logout means /customlogin?logout param handled by spring behind the scene -->
+				<c:if test="${param.logout != null}">
+
+					<div class="alert alert-danger">You have been logout.</div>
+
+				</c:if>
+
 
 				<!-- username field -->
 				<div class="field">

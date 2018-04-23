@@ -1,3 +1,6 @@
+<%@taglib prefix="c" uri="http://www.springframework.org/tags/form"%>
+<%@taglib prefix="sec" uri="" %>
+
 <html>
 <head>
 <title>Company Home Page</title>
@@ -8,8 +11,24 @@
 	<hr>
 
 	Welcome to the home page!
+	<hr>
+	<h3>
+	User: <sec:authentication  property="principal.username"/>
+	</h3>
+	<br>
+		<h3>
+	Roles: <sec:authentication  property="principal.authorities"/>
+	</h3>
 
 	<br>
+	<br>
+	<c:form action="${pageContext.request.contextPath}/logout"
+		method="POST">
+
+		<input type="submit" value="Logout">
+
+	</c:form>
+
 
 </body>
 
