@@ -1,5 +1,6 @@
 <%@taglib prefix="c" uri="http://www.springframework.org/tags/form"%>
-<%@taglib prefix="sec" uri="http://www.springframework.org/tags"%>
+<%@taglib prefix="sec"
+	uri="http://www.springframework.org/security/tags"%>
 
 <html>
 <head>
