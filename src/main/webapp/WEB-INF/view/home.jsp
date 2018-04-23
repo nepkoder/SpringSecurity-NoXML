@@ -1,5 +1,5 @@
 <%@taglib prefix="c" uri="http://www.springframework.org/tags/form"%>
-<%@taglib prefix="sec" uri="" %>
+<%@taglib prefix="sec" uri="http://www.springframework.org/tags"%>
 
 <html>
 <head>
@@ -13,11 +13,13 @@
 	Welcome to the home page!
 	<hr>
 	<h3>
-	User: <sec:authentication  property="principal.username"/>
+		User:
+		<sec:authentication property="principal.username" />
 	</h3>
 	<br>
-		<h3>
-	Roles: <sec:authentication  property="principal.authorities"/>
+	<h3>
+		Roles:
+		<sec:authentication property="principal.authorities" />
 	</h3>
 
 	<br>
