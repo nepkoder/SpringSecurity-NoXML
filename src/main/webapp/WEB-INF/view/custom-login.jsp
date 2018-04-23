@@ -23,14 +23,14 @@
 				<!-- username field -->
 				<div class="field">
 					<label for="username">Username</label> <input type="text"
-						 name="username" placeholder="Username"
+						name="username" placeholder="Username"
 						class="form-control username-field">
 				</div>
 
 				<!--  password field -->
 				<div class="field">
 					<label for="password">Password</label> <input type="password"
-						 name="password" placeholder="Password"
+						name="password" placeholder="Password"
 						class="form-control password-field">
 				</div>
 
@@ -41,7 +41,7 @@
 				<p class="reset-option">
 					<a href="#">Forget your password ??</a>
 				</p>
-				<input type="submit" class="btn btn-primary btn-login" value="Login"/>
+				<button type="submit" class="btn btn-primary btn-login">Login</button>
 			</div>
 		</form:form>
 	</div>

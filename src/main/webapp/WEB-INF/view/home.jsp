@@ -10,7 +10,6 @@
 	Welcome to the home page!
 
 	<br>
-	<a href="${pageContext.request.contextPath }/admin">Goto Admin Page</a>
 
 </body>
 

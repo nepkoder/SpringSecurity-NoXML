@@ -18,8 +18,8 @@ public class DemoController {
 		return "custom-login";
 	}
 	
-	@GetMapping("/admin")
+	@GetMapping("/adminhome")
 	public String admin() {
-		return "admin";
+		return "adminhome";
 	}
 }
