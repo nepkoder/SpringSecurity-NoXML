@@ -4,11 +4,12 @@
 
 <html>
 <head>
-<title>Company Home Page</title>
+<title>Home Page</title>
 </head>
 
 <body>
-	<h2>Company Home Page</h2>
+	<br>
+	<h2>Home Page</h2>
 	<hr>
 
 	Welcome to the home page!
@@ -22,6 +23,17 @@
 		<sec:authentication property="principal.authorities" />
 	</h3>
 
+	<hr>
+	
+		<p>
+			<a href="${pageContext.request.contextPath}/manager">This link is
+				only for manager (only manager access)</a>
+		</p>
+	
+		<h3>
+			<a href="${pageContext.request.contextPath}/admin">Admin page
+				link (only admin access)</a>
+		</h3>
 	<br>
 	<br>
 	<c:form action="${pageContext.request.contextPath}/logout"
