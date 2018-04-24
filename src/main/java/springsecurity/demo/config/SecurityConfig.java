@@ -26,7 +26,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		antMatchers("/manager/**").hasRole("MANAGER").
 		and().formLogin()
 				.loginPage("/customlogin").loginProcessingUrl("/login").permitAll().
-				and().logout().permitAll();
+				and().logout().permitAll().and().exceptionHandling().accessDeniedPage("/access-failed");
 				
 				
 //				defaultSuccessUrl("/adminhome")

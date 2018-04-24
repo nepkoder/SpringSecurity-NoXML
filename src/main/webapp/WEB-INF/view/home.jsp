@@ -17,7 +17,6 @@
 		User:
 		<sec:authentication property="principal.username" />
 	</h3>
-	<br>
 	<h3>
 		Roles:
 		<sec:authentication property="principal.authorities" />

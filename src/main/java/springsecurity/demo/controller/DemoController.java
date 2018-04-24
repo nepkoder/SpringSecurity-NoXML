@@ -18,8 +18,18 @@ public class DemoController {
 		return "custom-login";
 	}
 	
-	@GetMapping("/adminhome")
+	@GetMapping("/manager")
+	public String manager() {
+		return "manager";
+	}
+
+	@GetMapping("/admin")
 	public String admin() {
-		return "adminhome";
+		return "admin";
+	}
+
+	@GetMapping("/access-failed")
+	public String showFailedPage() {
+		return "access-failed";
 	}
 }
