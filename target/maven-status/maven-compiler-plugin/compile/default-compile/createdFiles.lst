@@ -1,0 +1,6 @@
+springsecurity/demo/config/SecurityWebApplicationInitializer.class
+springsecurity/demo/config/SpringMvcDispatcherServletInitializer.class
+springsecurity/demo/config/HibernateConfig.class
+springsecurity/demo/config/SecurityConfig.class
+springsecurity/demo/config/WebAppConfig.class
+springsecurity/demo/controller/DemoController.class
