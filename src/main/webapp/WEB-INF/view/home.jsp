@@ -25,15 +25,16 @@
 
 	<hr>
 	
+
 		<p>
 			<a href="${pageContext.request.contextPath}/manager">This link is
 				only for manager (only manager access)</a>
 		</p>
-	
-		<h3>
-			<a href="${pageContext.request.contextPath}/admin">Admin page
-				link (only admin access)</a>
-		</h3>
+
+	<h3>
+		<a href="${pageContext.request.contextPath}/admin">Admin page link
+			(only admin access)</a>
+	</h3>
 	<br>
 	<br>
 	<c:form action="${pageContext.request.contextPath}/logout"
